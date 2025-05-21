@@ -84,12 +84,18 @@ p{
 } */
 
 footer{
-    /* padding: 15px; */
     width: 960px;
     height: 60px;
     color: #87423c;
     text-align: center;
-/*     margin-left: 53%; */
+}
+.footer-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 
